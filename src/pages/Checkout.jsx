@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-function Checkout({ cart, setCart }) {
+function CheckOut({ cart, setCart }) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -317,4 +317,4 @@ function Checkout({ cart, setCart }) {
   );
 }
 
-export default Checkout;
+export default CheckOut;
