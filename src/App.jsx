@@ -5,7 +5,7 @@ import Navbar from "./components/NavBar";
 import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
+import Checkout from "./pages/CheckOut";
 
 function App() {
   const [cart, setCart] = useState([]);
